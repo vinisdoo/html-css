@@ -1,0 +1,16 @@
+div.video{
+    background-color: black;
+    margin: 30px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 45%;
+
+}
+div.video > iframe{
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+ 
+}

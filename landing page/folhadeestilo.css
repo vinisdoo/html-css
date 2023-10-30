@@ -1,0 +1,45 @@
+@font-face{
+    font-family: escolar;
+    src: url(Letters\ for\ Learners.ttf) format('truetype');
+}
+body{
+    font-size: 24pt;
+    background-image: url(quadrosujo-1.jpg)
+}
+.perto{
+    display: flex;
+    justify-content: space-between;
+    margin: px;
+}
+.titulo{
+    font-family: escolar, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+main{
+    font-family: escolar, sans-serif;
+    background-image: linear-gradient(to top, darkred 20%, rgba(252, 109, 61, 0.767));
+    /*background-color: white;*/
+    /* rgb(186,53,59)*/
+    width: 600;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 1300px;
+}
+div#foto{
+    text-align: center;
+}
+.conteudo{
+    text-align: justify;
+    padding: 30px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.foto{
+    text-align: center;
+}
+.link{
+    text-align: center;
+}
