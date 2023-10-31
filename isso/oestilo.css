@@ -3,7 +3,7 @@
     src: url(atwriter.ttf) format('truetype');
 }
 body{
-    
+    background-color: black;
     background-image: url(background-image3.png);
 
 }
