@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas2</title>
+    <style>
+        
+        table{
+            width: 300px;
+            height: 300px;
+            border-collapse: collapse;
+            text-align: center;
+            vertical-align: top;
+        }
+        td{
+            border: 1px solid black;
+        }
+        col.col1{
+            background-color: red;
+        }
+        div{
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <colgroup>
+            <col class="col1" span="2">
+            <col class="col2">
+            <col class="col3">
+        </colgroup>
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>A1</td>
+                <td colspan="2">B1</td>
+                
+            </tr>
+            <tr>
+                <td>B1</td>
+                <td>B2</td>
+                <td>B3</td>
+            </tr>
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+                <td>C3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    </div>
+</body>
+</html>
