@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: top;
+                        
+        }
+        table{
+            position: relative;
+            width: 400px;
+            border-collapse: collapse;
+            height: 400px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: gray;
+        }
+        thead > tr > th{
+            position: sticky;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+    </table>
+    
+    <table>
+        <caption>Trocando as coisas</caption>
+        <thead>
+            <tr>
+                <th>ABC</th>
+                <th colspan="2">123</th>
+                <th></th>
+            </tr>
+                
+        </thead>
+        <tbody>
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>B1</td>
+                <td>B2</td>
+                <td>B3</td>
+            </tr>
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+                <td>C3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="colgroup">CBA</th>
+                <th scope="colgroup">123</th>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
