@@ -22,3 +22,8 @@ section{
     display: flex;
     justify-content: space-between;
 }
+
+p.produto{
+    color: white;
+    text-align: center;
+}
