@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>iframes</title>
+    <style>
+        iframe{
+            width: 95vw;
+        }
+        p{
+            display: inline-block;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div id="links">
+<p><a href="link1.html" target="quadro1" rel="self"> link</a></p>
+<p><a href="link2.html" target="quadro1" rel="self">link</a></p>
+<p><a href="link3.html" target="quadro1" rel="self">link</a></p>
+    </div>
+</header>
+    <h1>criando iframes</h1>
+    <p>Isto é um iframe</p>
+    <p>dá pra fazer um carrinho de compras aqui</p>
+    
+    <iframe id = "quadro" name="quadro1">      
+    </iframe><br>
+
+    <iframe srcdoc="<h1>isso serve pra adicionar html diretamente">
+
+    </iframe>
+</body>
