@@ -1,0 +1,4 @@
+div#linha1{
+    display: flex;
+    justify-content:space-between;
+}
