@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elementos</title>
+</head>
+<body>
+    <form>
+        <label for="selecionador">Estado:</label>
+    <select id="selecionador">
+        <option value="">---Escolha---</option>
+        <optgroup label="Estado civil">
+        <option value="casado">casado</option>
+        <option value="solteiro">solteiro</option>
+        <option value="namorando">namorando</option>
+        <option value="ficando">ficando</option>
+        </optgroup>
+    </select>
+<br>
+    <label for="b">Profissão</label>
+    <input type="text" id="b" placeholder="escolha" list="profissao">
+    <datalist id="profissao">
+        <option value="ADM">Administrador</option>
+        <option value="DEV">Desenvolvedor</option>
+        <option value="PROF">Professor</option>
+    </datalist>
+    <br>
+    <label for="c">Mensagem</label><br>
+    <textarea  rows="30" cols="30" id="c"></textarea>
+    </form>
+</body>
+</html>
