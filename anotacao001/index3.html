@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem</title>
+</head>
+<body>
+    
+    
+</body>
+<script>
+    const myImag = querySelector("img")
+
+    myImag.onclick = ()=>{
+
+    const mySrc = myImag.getAttribute("src")
+    if(mySrc === "images/firefox-icon.png"){
+        myImag.setAttribute("src", "images/firefox2.png")
+    } else{
+        myImag.setAttribute("src", "images/firefox-icon.png")
+    }}
+</script>
+</html>
